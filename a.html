@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <style>
+        h2 {
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        body {
+            display: grid;
+            place-items: center;
+        }
+
+        .slider {
+            width: 60%;
+            height: 60vh;
+            background-image: url('https://www.hdwallpapers.in/download/demon_slayer_kyojuro_rengoku_with_sword_with_background_of_window_red_leaves_and_black_4k_hd_anime-HD.jpg');
+            background-size: 100% 100%;
+            box-shadow: 0px 8px 24px 0px black;
+            animation: Changeimages 15s infinite linear;
+
+        }
+
+        @keyframes Changeimages {
+            0% {
+                background-image: url('https://www.hdwallpapers.in/download/demon_slayer_kyojuro_rengoku_with_sword_with_background_of_window_red_leaves_and_black_4k_hd_anime-HD.jpg');
+            }
+
+            25% {
+                background-image: url('https://tse3.mm.bing.net/th?id=OIP.zwopwehds0tzVkU1UCSlEAHaEK&pid=Api&P=0&h=220');
+            }
+
+            50% {
+                background-image: url('https://tse1.mm.bing.net/th?id=OIP.21pUCmYoLyX2n6yMC_6FGAHaEo&pid=Api&P=0&h=220');
+            }
+
+            75% {
+                background-image: url('https://tse3.mm.bing.net/th?id=OIP.6KB3Aoz5QZHP4hWF73cNjAHaEK&pid=Api&P=0&h=220');
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        image slider
+    </h2>
+    <div class="slider">
+
+    </div>
+</body>
+
+</html>
